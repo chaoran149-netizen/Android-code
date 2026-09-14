@@ -65,9 +65,9 @@ adb shell input tap 540 1527
 adb shell "cd / && pwd && ls -l /"
 ```
 
-## 六、Gitee 地址
+## 六、代码仓库地址（GitHub）
 
-https://gitee.com/________________________
+https://github.com/chaoran149-netizen/Android-code
 
 ## 七、运行截图
 
