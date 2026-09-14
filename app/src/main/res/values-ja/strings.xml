@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">こんにちは、世界！</string>
+    <string name="btn_zh">中文</string>
+    <string name="btn_en">English</string>
+    <string name="btn_ja">日本語</string>
+</resources>

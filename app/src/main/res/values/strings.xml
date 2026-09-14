@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP 应用标题：姓名 + 学号（请改成你自己的） -->
+    <string name="app_name">陈浩然20230001</string>
+
+    <!-- 默认语言（中文） -->
+    <string name="hello_world">你好，世界！</string>
+    <string name="btn_zh">中文</string>
+    <string name="btn_en">English</string>
+    <string name="btn_ja">日本語</string>
+</resources>
