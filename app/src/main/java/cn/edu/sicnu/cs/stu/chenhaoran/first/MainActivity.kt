@@ -1,4 +1,4 @@
-package com.example.helloworld
+package cn.edu.sicnu.cs.stu.chenhaoran.first
 
 import android.content.res.Configuration
 import android.graphics.Color

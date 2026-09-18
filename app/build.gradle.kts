@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.helloworld"
+    namespace = "cn.edu.sicnu.cs.stu.chenhaoran.first"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.helloworld"
+        applicationId = "cn.edu.sicnu.cs.stu.chenhaoran.first"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
