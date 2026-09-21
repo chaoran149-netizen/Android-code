@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP 标题：姓名 + 学号 -->
+    <string name="app_name">陈浩然2024110203</string>
+
+    <!-- ========== 功能区 1 ========== -->
+    <string name="section1_title">功能区1：代码动态添加控件</string>
+    <string name="section1_hint">输入要添加的文字</string>
+    <string name="section1_button">添加 TextView</string>
+    <string name="section1_added_item">%1$d. %2$s</string>
+    <string name="section1_empty">内容不能为空</string>
+
+    <!-- ========== 功能区 2 ========== -->
+    <string name="section2_title">功能区2：ProgramAdviser（MVC 模式）</string>
+    <string name="section2_hint">输入编程关键词，如 Java / Kotlin / Python</string>
+    <string name="section2_button">查询建议</string>
+    <string name="section2_result_label">查询结果：</string>
+
+    <!-- ========== Model 层建议数据 ========== -->
+    <string name="advice_java">Java：跨平台、生态成熟，适合企业级后端与 Android 开发。建议先掌握 Java 语法与面向对象思想。</string>
+    <string name="advice_kotlin">Kotlin：Android 官方首选语言，语法简洁，可与 Java 互操作。建议作为 Android 开发的主力语言。</string>
+    <string name="advice_python">Python：语法简单、库丰富，适合数据分析、人工智能与脚本。非常适合作为入门语言。</string>
+    <string name="advice_c">C：贴近底层，帮助理解内存与指针，是计算机原理的基石。建议作为第一门语言打基础。</string>
+    <string name="advice_cpp">C++：性能强大，用于游戏引擎与系统开发。建议在掌握 C 之后再学习。</string>
+    <string name="advice_android">Android：移动应用开发。建议先学 Kotlin/Java，再掌握四大组件与 Jetpack。</string>
+    <string name="advice_javascript">JavaScript：网页交互与前端开发必备，也可借助 Node.js 编写后端。</string>
+    <string name="advice_html">HTML：网页结构的基础，需配合 CSS 与 JavaScript 使用，入门门槛低。</string>
+    <string name="advice_sql">SQL：数据库查询语言，后端与数据分析必备，重点掌握增删改查与多表联查。</string>
+    <string name="advice_git">Git：版本控制工具，团队协作的必备技能，建议尽早熟悉基本工作流。</string>
+    <string name="advice_empty">请先输入关键词再点击查询。</string>
+    <string name="advice_not_found">暂无该关键词的建议。可尝试：Java、Kotlin、Python、C、C++、Android、JavaScript、HTML、SQL、Git。</string>
+</resources>
