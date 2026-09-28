@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">陈浩然2024110203</string>
+
+    <!-- ==================== MainActivity ==================== -->
+    <string name="main_title">实验3：Intent 与多 Activity 演示</string>
+    <string name="main_btn_1">1. 正向传参 → 二级Activity 1</string>
+    <string name="main_btn_2">2. 返回数据 → 二级Activity 2</string>
+    <string name="main_btn_3">3. 隐式调用相机 → 二级Activity 3</string>
+    <string name="main_btn_4">4. 秒表 StopWatch → 二级Activity 4</string>
+    <string name="main_returned_label">二级 Activity 2 返回的内容：</string>
+    <string name="main_returned_empty">（暂无返回内容）</string>
+    <string name="main_returned_format">二级 Activity 2 返回的内容：\n%1$s</string>
+    <string name="main_forward_message">这是 MainActivity 正向传递的参数：陈浩然 2024110203</string>
+
+    <!-- ==================== 二级 Activity 1：接收传参 ==================== -->
+    <string name="second_title">二级 Activity 1：接收正向传参</string>
+    <string name="second_received_label">接收到的参数内容：</string>
+    <string name="second_received_format">接收到的参数内容：\n%1$s</string>
+    <string name="second_none">（未接收到任何参数）</string>
+    <string name="second_back">返回 MainActivity</string>
+
+    <!-- ==================== 二级 Activity 2：返回数据 ==================== -->
+    <string name="third_title">二级 Activity 2：返回数据</string>
+    <string name="third_tip">在下面输入内容，点击确定后会把内容返回给 MainActivity。</string>
+    <string name="third_hint">请输入要返回的内容</string>
+    <string name="third_confirm">确定并返回</string>
+    <string name="third_empty">内容不能为空</string>
+
+    <!-- ==================== 二级 Activity 3：相机 ==================== -->
+    <string name="fourth_title">二级 Activity 3：隐式调用系统相机</string>
+    <string name="fourth_tip">采用隐式 Intent（ACTION_IMAGE_CAPTURE）调用系统相机拍照，拍完在下方显示照片。</string>
+    <string name="fourth_take_photo">拍照</string>
+    <string name="fourth_no_photo">尚未拍照</string>
+    <string name="fourth_photo_desc">拍摄的照片</string>
+    <string name="fourth_no_camera">未找到可用的相机应用</string>
+    <string name="fourth_failed">拍照失败或已取消</string>
+
+    <!-- ==================== 二级 Activity 4：秒表 ==================== -->
+    <string name="fifth_title">二级 Activity 4：秒表 StopWatch</string>
+    <string name="fifth_tip">开始计时后旋转屏幕（横屏↔竖屏），计时会连续不中断。</string>
+    <string name="fifth_time_format">%1$02d:%2$02d:%3$02d.%4$d</string>
+    <string name="fifth_start">开始</string>
+    <string name="fifth_pause">暂停</string>
+    <string name="fifth_reset">重置</string>
+</resources>
