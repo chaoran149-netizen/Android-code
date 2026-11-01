@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-26T00:24:06" hostname="ROXY" time="0.008">
+  <properties/>
+  <testcase name="firstChoiceCostsOneAndClosingCostsNothing" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.002"/>
+  <testcase name="mismatchCostsFourTotalAndLeavesOnlySecondCardOpen" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.001"/>
+  <testcase name="randomSixteenCardGameHasNoDuplicates" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="serializedStateKeepsScoreOrderChosenAndMatchedCards" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.003"/>
+  <testcase name="noRemainingPairCanBeDetectedWithoutChangingScore" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="rankPairGivesFourteenNetPointsAndLocksBothCards" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="deckContains52UniqueCardsAndBecomesEmpty" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="highestScoreNeverFallsAndHasZeroFloor" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.001"/>
+  <testcase name="rankMatchTakesPriorityOverSuit" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="rejectsDuplicateCards" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="rejectsTooManyCards" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <testcase name="suitPairGivesTwoNetPoints" classname="cn.edu.sicnu.cardgame.model.CardMatchingGameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

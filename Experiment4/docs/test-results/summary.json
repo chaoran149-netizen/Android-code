@@ -1,0 +1,40 @@
+[
+  {
+    "type": "unit",
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "cases": [
+      "firstChoiceCostsOneAndClosingCostsNothing",
+      "mismatchCostsFourTotalAndLeavesOnlySecondCardOpen",
+      "randomSixteenCardGameHasNoDuplicates",
+      "serializedStateKeepsScoreOrderChosenAndMatchedCards",
+      "noRemainingPairCanBeDetectedWithoutChangingScore",
+      "rankPairGivesFourteenNetPointsAndLocksBothCards",
+      "deckContains52UniqueCardsAndBecomesEmpty",
+      "highestScoreNeverFallsAndHasZeroFloor",
+      "rankMatchTakesPriorityOverSuit",
+      "rejectsDuplicateCards",
+      "rejectsTooManyCards",
+      "suitPairGivesTwoNetPoints"
+    ]
+  },
+  {
+    "type": "ui",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "cases": [
+      "profileSaveReturnsAllChangedValuesToHome",
+      "matchingCardsAreDisabledAndHighestScoreReturnsHome",
+      "gameCanFlipRecreateAndRestart",
+      "cancelDoesNotApplyDraft",
+      "emptyNameIsRejected",
+      "draftSurvivesActivityRecreation",
+      "invalidEmailIsRejectedWithoutSavingName",
+      "captureProfileEditBoardAndMatchedResult"
+    ]
+  }
+]

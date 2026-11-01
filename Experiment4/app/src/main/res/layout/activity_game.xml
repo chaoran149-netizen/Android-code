@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/page_padding">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Heading" android:text="@string/game_title" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/game_title" android:id="@+id/score" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/game_title" android:id="@+id/progress" />
+<GridLayout android:id="@+id/card_grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="4" android:rowCount="4" android:useDefaultMargins="false"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/game_ready" android:id="@+id/game_status" android:layout_marginTop="12dp" android:accessibilityLiveRegion="polite"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/game_title" android:id="@+id/best_hint" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/rules" android:textSize="13sp" />
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:id="@+id/reset_game" android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp" android:layout_marginStart="4dp" android:layout_height="wrap_content" style="@style/SecondaryButton" android:text="@string/reset" />
+<Button android:id="@+id/exit_game" android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp" android:layout_marginStart="4dp" android:layout_height="wrap_content" style="@style/SecondaryButton" android:text="@string/exit_game" />
+</LinearLayout>
+</LinearLayout></ScrollView>

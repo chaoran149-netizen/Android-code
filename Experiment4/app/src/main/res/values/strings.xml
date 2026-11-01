@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用标题：陈浩然2024110203。 -->
+    <string name="app_name">陈浩然2024110203</string>
+    <string name="main_title">玩家档案</string>
+    <string name="main_subtitle">实验四 · 翻牌游戏</string>
+    <string name="profile_note">完善个人信息，开启一局翻牌挑战。</string>
+    <string name="edit_title">修改个人信息</string>
+    <string name="game_title">翻牌游戏</string>
+    <string name="edit_profile">修改个人信息</string>
+    <string name="play_game">开始翻牌游戏</string>
+    <string name="save">保存修改</string>
+    <string name="cancel">取消</string>
+    <string name="reset">重新开局</string>
+    <string name="exit_game">退出游戏</string>
+    <string name="name_label">姓名</string>
+    <string name="student_label">学号</string>
+    <string name="phone_label">电话号码</string>
+    <string name="email_label">电子邮件地址</string>
+    <string name="gender_label">性别</string>
+    <string name="hobbies_label">爱好</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unspecified">未设置</string>
+    <string name="hobby_travel">旅游</string>
+    <string name="hobby_reading">阅读</string>
+    <string name="hobby_game">游戏</string>
+    <string name="hobby_shopping">购物</string>
+    <string name="unfilled">未填写</string>
+    <string name="no_hobbies">暂无</string>
+    <string name="empty" translatable="false"></string>
+    <string name="separator" translatable="false">、</string>
+    <string name="profile_row">%1$s：%2$s</string>
+    <string name="best_score">游戏最高分：%1$d</string>
+    <string name="avatar_description">玩家头像</string>
+    <string name="take_avatar">拍照更换头像</string>
+    <string name="photo_unavailable">无法调用系统相机，请检查是否已安装相机应用。</string>
+    <string name="photo_cancelled">未更换头像</string>
+    <string name="photo_empty">相机没有返回预览照片。</string>
+    <string name="name_required">请输入姓名</string>
+    <string name="invalid_phone">请输入有效的电话号码</string>
+    <string name="invalid_email">请输入有效的电子邮件地址</string>
+    <string name="profile_saved">个人信息已更新</string>
+    <string name="score">得分：%1$d</string>
+    <string name="progress">已配对 %1$d / %2$d 张</string>
+    <string name="card_back" translatable="false">✦</string>
+    <string name="card_face" translatable="false">%1$s%2$s</string>
+    <string name="card_hidden_description">第 %1$d 张牌，背面</string>
+    <string name="card_open_description">第 %1$d 张牌，%2$s</string>
+    <string name="card_matched_description">第 %1$d 张牌，%2$s，已配对</string>
+    <string name="rules">每次翻开扣 1 分；同点数配对加 16 分，同花色配对加 4 分；失配另扣 2 分。再次点击已翻开的牌可以合上。</string>
+    <string name="game_ready">点击任意一张牌开始。</string>
+    <string name="game_choose">已翻开一张牌，请选择另一张。</string>
+    <string name="game_rank_match">同点数配对成功！</string>
+    <string name="game_suit_match">同花色配对成功！</string>
+    <string name="game_mismatch">配对失败，上一张牌已合上。</string>
+    <string name="game_closed">已合上所选的牌。</string>
+    <string name="game_complete">全部配对完成！可重新开局。</string>
+    <string name="game_no_pairs">剩余牌已无可配对组合，本局结束。</string>
+    <string name="best_updated">当前最高分：%1$d</string>
+    <string name="restart_title">重新开局？</string>
+    <string name="restart_message">本局进度将清空，已获得的最高分会保留。</string>
+    <string name="restart_confirm">开始新局</string>
+    <string name="key_game" translatable="false">state_game</string>
+    <string name="key_message" translatable="false">state_message</string>
+    <string name="key_avatar" translatable="false">state_avatar</string>
+    <string name="camera_data" translatable="false">data</string>
+    <string name="demo_name" translatable="false">实验玩家</string>
+    <string name="demo_student" translatable="false">20260001</string>
+    <string name="demo_phone" translatable="false">10086</string>
+    <string name="demo_email" translatable="false">player@example.com</string>
+    <string-array name="card_suits" translatable="false"><item>♥</item><item>♦</item><item>♠</item><item>♣</item></string-array>
+    <string-array name="card_ranks" translatable="false"><item>A</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>J</item><item>Q</item><item>K</item></string-array>
+</resources>

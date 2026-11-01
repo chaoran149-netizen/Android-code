@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/page_padding">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/main_subtitle" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Heading" android:text="@string/main_title" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body" android:text="@string/profile_note" />
+<ImageView android:id="@+id/avatar" android:layout_width="88dp" android:layout_height="88dp" android:layout_gravity="center_horizontal" android:layout_marginBottom="12dp" android:src="@drawable/ic_avatar" android:scaleType="centerCrop" android:contentDescription="@string/avatar_description"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:background="@drawable/panel">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/name_label" android:id="@+id/profile_name" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/gender_label" android:id="@+id/profile_gender" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/student_label" android:id="@+id/profile_student" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/phone_label" android:id="@+id/profile_phone" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/email_label" android:id="@+id/profile_email" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/hobbies_label" android:id="@+id/profile_hobbies" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Row" android:text="@string/game_title" android:id="@+id/profile_best" />
+</LinearLayout>
+<Button android:id="@+id/edit_profile" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SecondaryButton" android:text="@string/edit_profile" />
+<Button android:id="@+id/play_game" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PrimaryButton" android:text="@string/play_game" />
+</LinearLayout></ScrollView>
